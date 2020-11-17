@@ -162,12 +162,13 @@ body{
 .skill h4{
     float: right;
     text-align: right;
-    margin: 0;
+    margin: 10px;
     width: 70%;
 }
 .skill p{
     float: right;
     text-align: right;
+    margin: 0;
 }
 
 .skill span{
