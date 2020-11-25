@@ -1,101 +1,120 @@
-@media(max-width:500px){
-    .container{
-        max-width: 500px;
+
+@media(min-width:671px) and (max-width: 1024px){
+    .photo_name{
+        width: 70%;
+        margin: 0 auto;
+        align-items: center;
+        float: none;
     }
-    .hobby{
+
+    .photo_name img{
+        width: 250px;
+        height: 250px;
+        float: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+    }
+    .photo_name h1{
+        float: none;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .flex_box{
+        flex-wrap: wrap;
+    }
+    .flex_box li{
         width: 50%;
     }
-    .header-left{
+    .flex_box p{
+        text-align: center;
+    }
+    .skills h3{
+        background-color: rgb(176 254 228);
+        padding: 20px 20px 30px 0px;
+    }
+    .experiences h3{
+        background-color: rgb(176 254 228);
+    }
+    .container{
+        width: 70%;
+    }
+    .course{
+        height: 100px;
+
+    }
+    .course p{
+        padding: 0px 10px 10px 10px;
+    }
+
+    .footer a{
+        color: white;
+    }
+}
+@media (min-width: 370px) and (max-width:670px){
+    .photo_name {
         width: 100%;
-        height: 400px;
+        margin: 0;
     }
-    .header-right{
+    .photo_name img{
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+    .photo_name h1{
+        text-align: center;
+        padding: 0px;
+    }
+    .flex_box {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .flex_box li{
         width: 100%;
-        height: 400px;
+        padding: 10px 30px;
     }
-    .hobby img{
-        max-width: 70px;
-    }
-    .current{
-        top: 0px;
-        left: 0px;
-        z-index: 2;
-        opacity: 1;
-        animation:  7s zoomin infinite alternate ease-out;
-        /* -webkit-transition: opacity 1.6s ease-out, -webkit-transform 7.2s linear;
-        -moz-transition: opacity 1.6s ease-out, -moz-transform 7.2s linear;
-        -o-transition: opacity 1.6s ease-out, -o-transform 7.2s linear;
-        transition: opacity 1.6s ease-out 0s, transform 7.2s linear 0s; */
-        transform-origin: center center;
-        -webkit-transform-origin: center center;
-        -moz-transform-origin: center center;
-        -ms-transform-origin: center center;
-        -o-transform-origin: center center;
-    }
-    @keyframes zoomin{
-        0% { transform: scale(1); }
-        100% { transform: scale(0.95); }
-    }
-    @-webkit-keyframes zoomin{
-        0% { transform: scale(1); }
-        100% { transform: scale(0.95); }
-    }
-    @-moz-keyframes zoomin{
-        0% { transform: scale(1); }
-        100% { transform: scale(0.95); }
-    }
-    @-ms-keyframes zoomin{
-        0% { transform: scale(1); }
-        100% { transform: scale(0.95); }
-    }
-    
-    @-o-keyframes zoomin{
-        0% { transform: scale(1); }
-        100% { transform: scale(0.9); }
-    }
-    .banner-image {
-        height: 550px;
-        width: 115%;
-        margin-top: -30px;
-        margin-left: -43px;
-    
-    }
-    .titlename {
-        position: absolute;
+    .skills{
         width: 100%;
-        top: 500px;
-        left: 1%;
-        
+        border-style: none;
+    }
+    .skill{
+        margin-top: 10px;
+    }
+    .skill_desc {
+        width: 75%;
+    }
+    .skill_desc h4{
+        margin: 0;
+    }
+    .experiences{
+        width: 100%;
+        text-align: center;
+    }
+    .container{
+        width: 75%;
+    }
+    .course{
+        width: 100%;
+        height: auto;
+    }
+    .footer{
+        height: auto;
+    }
+    .listfooter ul{
+        float: left;
+        margin-left: 0px;
+        padding-inline-start: 0px;
+    }
+    .footer a{
+        color: white;
     }
 }
 
-@media(max-width:800px){
-    .header-left{
-        width: 100%;
-        height: 460px;
-    }
-    .header-right{
-        width: 100%;
-        height: 400px;
-    }
-    .hobby{
-        width: 50%;
-    }
-    .hobby img{
-        max-width: 140px;
-    }
-    .titlename {
-        position: absolute;
-        width: 100%;
-        top: 500px;
-        left: 1%;
-    }
-    .profilepicture{
-        width: 100%;
-        height: auto;
-        float: left;
-        padding-right: 20%;
-        padding-left: 20%;
-        padding-top: 10px;
-    }
-}
+
