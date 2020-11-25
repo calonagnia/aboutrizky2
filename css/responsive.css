@@ -1,5 +1,5 @@
 
-@media(min-width:671px) and (max-width: 1024px){
+@media(min-width:671px) and (max-width:1024px){
     .photo_name{
         width: 70%;
         margin: 0 auto;
@@ -53,7 +53,7 @@
         color: white;
     }
 }
-@media (min-width: 300px) and (max-width:670px){
+@media (min-width:300px) and (max-width:670px){
     .photo_name {
         width: 100%;
         margin: 0;
